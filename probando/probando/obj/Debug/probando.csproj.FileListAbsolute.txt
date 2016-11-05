@@ -1,6 +1,0 @@
-C:\Users\alumno\Desktop\probando\probando\bin\probando.dll.config
-C:\Users\alumno\Desktop\probando\probando\bin\probando.dll
-C:\Users\alumno\Desktop\probando\probando\bin\probando.pdb
-C:\Users\alumno\Desktop\probando\probando\obj\Debug\probando.csprojResolveAssemblyReference.cache
-C:\Users\alumno\Desktop\probando\probando\obj\Debug\probando.dll
-C:\Users\alumno\Desktop\probando\probando\obj\Debug\probando.pdb
