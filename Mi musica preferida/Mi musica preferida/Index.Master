@@ -12,9 +12,10 @@
             padding: 0;
             margin: 0;
         }
-        body{
-            background-image:url(http://cde.publimetro.e3.pe/ima/0/0/0/3/9/39755.jpg);
-            background-size: 1000px 1000px;
+
+        body {
+            background-image: url(http://www.indeks.rs/wp-content/uploads/2016/05/DSC_1511-1476_resized.jpg);
+            background-size: auto auto;
         }
 
         header {
@@ -59,7 +60,11 @@
                 <nav>
                     <ul>
                         <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Artistas</a></li>
+                        <li><a href="#">Artistas</a>
+                            <ul>
+                                <li><a href="#">Escuchar</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Noticias</a></li>
                         <li><a href="#">Contacto</a></li>
                     </ul>
