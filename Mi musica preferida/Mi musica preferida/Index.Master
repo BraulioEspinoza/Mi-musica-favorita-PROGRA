@@ -7,22 +7,30 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Musica</title>
     <style>
+        body {
+            background-image: url(http://www.indeks.rs/wp-content/uploads/2016/05/DSC_1511-1476_resized.jpg);
+            background-size: 100%;
+        }
+
         * {
-            font-family: Arial;
             padding: 0;
             margin: 0;
         }
 
-        body {
-            background-image: url(http://www.indeks.rs/wp-content/uploads/2016/05/DSC_1511-1476_resized.jpg);
-            background-size: auto auto;
+        #espacio {
+            padding: 10px;
         }
 
-        header {
+        p {
+            margin-bottom: 20px;
+        }
+
+        #header {
             background: rgba(0,0,0,0.9);
             width: 100%;
             position: fixed;
             z-index: 100;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         nav {
@@ -45,31 +53,60 @@
                         padding: 20px;
                         color: #fff;
                         text-decoration: none;
+                        /*se agrego esto*/
+                        display: block;
                     }
 
                     nav ul li:hover {
-                        background: #3ead47;
+                        background: #457afc;
                     }
+
+        .contenido {
+            padding-top: 80px;
+        }
+
+        .wrapper {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            min-width: 130px;
+        }
+
+        nav ul li:hover > ul {
+            background: rgba(0,0,0,0.9);
+            display: block;
+        }
     </style>
 
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <header>
+            <div id="espacio"></div>
+            <div id="header">
                 <nav>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Artistas</a>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">ARTISTAS</a>
                             <ul>
-                                <li><a href="#">Escuchar</a></li>
+                                <li><a href="">ESCUCHAR</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">NOTICIAS</a></li>
+                        <li><a href="#">CONTACTO</a></li>
                     </ul>
                 </nav>
-            </header>
+            </div>
+            <section class="contenido wrapper">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fuga alias quae consequuntur, est enim dolorum dolore blanditiis laboriosam ea.</p>
+
+            </section>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
