@@ -26,7 +26,7 @@
         }
 
         nav {
-            float: right; /* Desplazamos el nav hacia la izquierda */
+            float: right; /* Desplazamos el nav hacia la derecha */
         }
 
             nav ul {
