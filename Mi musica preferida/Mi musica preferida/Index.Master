@@ -93,7 +93,7 @@
             <div id="header">
                 <nav>
                     <ul>
-                        <li><a href="#">INICIO</a></li>
+                        <li><a href="Default.aspx">INICIO</a></li>
                         <li><a href="#">ARTISTAS</a>
                             <ul>
                                 <li><a href="#">ESCUCHAR</a></li>
