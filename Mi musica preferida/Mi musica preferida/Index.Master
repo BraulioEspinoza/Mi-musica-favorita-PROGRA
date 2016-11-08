@@ -7,16 +7,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Musica</title>
     <style>
-        body {
-            background-image: url(http://www.indeks.rs/wp-content/uploads/2016/05/DSC_1511-1476_resized.jpg);
-            background-repeat: no-repeat;
-				background-attachment: fixed;
-            	background-size: 100%;
-        }
-
         * {
             padding: 0;
             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: url(http://unionprimesteak.com/wp-content/uploads/2015/11/bigstock-Crowd-of-people-with-raised-ar-70766698.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
         }
 
         #espacio {
@@ -55,8 +56,6 @@
                         padding: 20px;
                         color: #fff;
                         text-decoration: none;
-                        /*se agrego esto*/
-                        display: block;
                     }
 
                     nav ul li:hover {
@@ -80,7 +79,7 @@
         }
 
         nav ul li:hover > ul {
-            background: rgba(0,0,0,0.9);
+            background: rgba(0,0,0,0.7);
             display: block;
         }
     </style>
