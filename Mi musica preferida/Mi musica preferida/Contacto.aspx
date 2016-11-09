@@ -27,7 +27,6 @@
             color: #08fff0;
             font-weight: bold;
         }
-
         #textito2 {
             position: absolute;
             text-align: left;
@@ -38,8 +37,8 @@
             left: 0;
             color: white;
         }
-
         img {
+            width: 100%;
             border-radius: 10px;
         }
     </style>
@@ -48,7 +47,8 @@
             <header>
                 <div id="interior">
                     <img src="https://static.wixstatic.com/media/b2c0a7_4a8b425d8de773114d34686b8f5563fa.jpg/v1/fill/w_970,h_318,al_c,q_80,usm_0.66_1.00_0.01/b2c0a7_4a8b425d8de773114d34686b8f5563fa.jpg">
-                    <span id="textito">EN MI MÚSICA FAVORITA SIEMPRE ESTAMOS BUSCANDO TALENTOS
+                    <span id="textito">
+                        EN MI MÚSICA FAVORITA SIEMPRE ESTAMOS BUSCANDO TALENTOS
                     </span>
                     <span id="textito2">
                         <em>
@@ -56,6 +56,9 @@
                         quia a error? Praesentium dolorum atque nisi est, reprehenderit a, assumenda cupiditate facilis voluptas qui, similique.
                         </em>
                     </span>
+                    <div>
+
+                    </div>
                 </div>
             </header>
         </div>

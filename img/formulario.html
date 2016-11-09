@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title></title>
+        <style>
+            body{
+                font-family:Arial;
+                color:white;
+                background-color: black;
+            }
+            .fila{
+                margin:10px 0;
+            }
+            .fila label:first-child{
+                float:left;
+                text-align: right;
+                margin-right:10px;
+            }
+            .fila:last-child{
+                padding-left:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:Green">Contactanos:</h1>
+        <p>Complete este formulario para contactarnos:</p>
+        
+        <form action="" method="post">
+            <div class="fila">
+                <label for="nombre1">Nombre</label><br>
+                <input style="width:350px" id="nombre1" placeholder="" type="text" name="nombre"/>
+            </div>
+            <div class="fila">
+                <label for="email">Email</label><br>
+                <input style="width:350px" id="email" placeholder="" type="email"/>
+            </div>
+            <div class="fila">
+                <label for="apellido1">Asunto</label><br>
+                <input style="width:350px" id="apellido1" placeholder="" type="text" name="apellido"/>
+            </div>
+            <!--
+            <div class="fila">
+                <label for="motivo">Motivo de contacto:</label>
+                <select name="motivo" id="motivo">
+                    <option value="0"></option>
+                    <option value="1">Queja</option>
+                    <option value="2">Sugerencia</option>
+                    <option value="3">Reclamo</option>
+                    <option value="4">Otros</option>
+                </select>
+            </div>
+            -->
+            <!--
+            <div class="fila">
+                <label>¿Es usuario registrado?</label>
+                <input type="radio" name="es_usuario" value="si" id="es_usuario_si"/> <label for="es_usuario_si">Sí</label>
+                <input type="radio" name="es_usuario" value="no" id="es_usuario_no"/> <label for="es_usuario_no">No</label>
+            </div>
+            -->
+            <!--
+            <div class="fila">
+                <label for="r_correo">¿Desea respuesta por correo?</label>
+                <input id="r_correo" type="checkbox" name="respuesta_correo" value="si"/>
+                <label for="r_correo">Sí</label>
+            </div>
+            -->
+            <div class="fila">
+                <label for="mensaje">Mensaje</label><br>
+                <textarea rows=5 style="width:350px" id="mensaje" name="mensaje"></textarea>
+            </div>
+            <div class="fila">
+                <a href=""><img src="https://static.wixstatic.com/media/666a32_6fb4a2c7a8c24b2daa2d1b40b74e21d4~mv2.png/v1/fill/w_128,h_128,al_c/666a32_6fb4a2c7a8c24b2daa2d1b40b74e21d4~mv2.png"></a>
+            </div>
+        </form>
+    </body>
+</html>
