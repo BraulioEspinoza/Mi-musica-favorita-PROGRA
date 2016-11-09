@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="logo.css" />
     <div id="container">
         <div class="ex">
-            <img src="https://plus.google.com/u/0/photos/photo/104964224250869175242/6350809022276317506?icm=false"/>
+            <img src="https://static.wixstatic.com/media/666a32_1bd1c0dd609b4ce295a7f012edb1c2cb~mv2.png/v1/fill/w_600,h_538,al_c,usm_0.66_1.00_0.01/666a32_1bd1c0dd609b4ce295a7f012edb1c2cb~mv2.png"/>
             <!--CON TEXTO-->
             <p>My favorite</p>
             <p>music</p>

@@ -16,3 +16,9 @@ E:\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\bin\
 E:\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\obj\Debug\Mi musica preferida.csprojResolveAssemblyReference.cache
 E:\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\obj\Debug\Mi musica preferida.dll
 E:\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\obj\Debug\Mi musica preferida.pdb
+C:\Users\alumno\Desktop\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\bin\Mi musica preferida.dll.config
+C:\Users\alumno\Desktop\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\bin\Mi musica preferida.dll
+C:\Users\alumno\Desktop\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\bin\Mi musica preferida.pdb
+C:\Users\alumno\Desktop\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\obj\Debug\Mi musica preferida.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\obj\Debug\Mi musica preferida.dll
+C:\Users\alumno\Desktop\GitHub\Mi-musica-favorita-PROGRA\Mi musica preferida\Mi musica preferida\obj\Debug\Mi musica preferida.pdb
