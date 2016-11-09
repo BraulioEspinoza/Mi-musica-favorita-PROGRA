@@ -2,3 +2,8 @@ http://www.falconmasters.com/
 +-----------------------------------------------------------------------------------------------+
 http://es.wix.com/website-template/view/html/1388?originUrl=http%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fmusic%2F1&bookName=&galleryDocIndex=7&category=music
 +-----------------------------------------------------------------------------------------------+
+http://www.falconmasters.com/web-design/efecto-parallax-sencillo/
++-----------------------------------------------------------------------------------------------+
+http://www.oloblogger.com/2012/09/imagenes-escala-grises-css.html
++-----------------------------------------------------------------------------------------------+
+https://www.interactius.com/es/general-es/12-efectos-css-en-una-imagen-con-el-evento-hover/
