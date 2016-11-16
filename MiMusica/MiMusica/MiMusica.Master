@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MiMusica.master.cs" Inherits="MiMusica.MiMusica" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Default</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            font-family:Arial;
+        }
+        body{
+            background-image:url('http://fondopantalla.com.es/file/501/2560x1600/crop/fondo-de-pantalla-musical-vinilo-girando.jpg');
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+            background-size:100%;
+        }
+        html , body{
+            height:100%;
+        }
+        #espaciado{
+            padding:10px;
+        }
+        #header{
+            background: rgba(0,0,0,0.9);
+            width:100%;
+	        position: absolute;
+        }
+        #contenedor{
+            float:right;
+            margin-right:150px;
+
+        }
+        #contenedor ul{
+            list-style:none;
+        }
+        #contenedor ul li{
+            text-align:center;
+            float:left;
+            width:120px;          
+        }
+        #contenedor ul li a{
+            display:block;  /*Convertimos los elementos a elementos bloque para manipular el padding*/
+            text-decoration:none;
+            color:#fff;
+            padding:20px;
+        }
+        #contenedor ul li a:hover {
+	        background: #457afc;
+        }
+        #contenedor ul li ul{
+            display:none;
+            position:absolute;
+        }
+        #contenedor ul li:hover > ul {
+            background: rgba(0,0,0,0.9);
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="espaciado"></div>
+        <div id="header">
+            <nav id="contenedor">
+                <ul>
+                    <li><a href="Default.aspx">INICIO</a></li>
+                    <li><a href="Artistas.aspx">ARTISTAS</a>
+                        <ul>
+                            <li><a href="#">ESCUCHAR</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">NOTICIAS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
