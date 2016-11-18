@@ -74,8 +74,8 @@
                             <li><a href="#">ESCUCHAR</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">NOTICIAS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="Noticias.aspx">NOTICIAS</a></li>
+                    <li><a href="Contacto.aspx">CONTACTO</a></li>
                 </ul>
             </nav>
         </div>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="db_musicaConnectionString-Web.config Connection String" description="db_musicaConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=SQL5028.SmarterASP.NET;Initial Catalog=DB_A137E3_MiMusica;User Id=DB_A137E3_MiMusica_admin;Password=3385644omar" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\LENOVO\\Documents\\GitHub\\progra\\MiMusica\\MiMusica\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='db_musicaConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

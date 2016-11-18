@@ -1,0 +1,62 @@
+﻿body{
+    font-family:Arial;
+    background-color:black;
+}
+.principal{ 
+    margin:100px 0px 0px 80px;
+    float:left;
+}
+#contenedorLogo img{
+    width:200px;
+    height:200px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding:5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,10);
+    background: rgba(0,0,0,0.9);
+        
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#contenedorLogo img:hover{
+    height: 400px;
+    width: 400px;  
+    border: 5px solid #e51a8b;
+    border-radius: 80px;
+
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    
+}
+#contenedorLogo {
+    color: transparent;
+    margin:0px -50px 0px 0px;
+    font-weight: 300;
+    line-height: 0px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#contenedorLogo:hover{
+    color: #F0FFFF;
+    line-height: 45px;
+
+}
+#text{
+    text-align:center;
+    margin-top:-15px;
+    font-size: 50px;
+    margin:0px -50px 0px 0px;
+}
+#text:hover{
+    color: transparent;
+}
+
+
