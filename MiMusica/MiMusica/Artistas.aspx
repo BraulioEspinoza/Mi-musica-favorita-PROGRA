@@ -5,7 +5,6 @@
             background: rgba(0,0,0,0.7);
             margin:100px auto;
             width:70%;
-            height:700px;
             box-shadow:8px 8px 10px 0;
             border-radius:20px;
         }
@@ -26,7 +25,7 @@
             color:transparent;
         }
         #textArtistas{
-            margin:20px 0px 80px 30px;
+            margin:20px 0px 90px 30px;
             display:block;
             }
         #textArtistas a:hover{
@@ -44,7 +43,7 @@
             <header>
                 <div id="text">
                     <h2>Nuestros Artistas</h2>
-                    <span><em>adada dad ada da dad ad ad ad ad ad d d ads ad ad adma dma dma amd ad ajnd kja dkad aa</em></span>
+                    <span><em>Conecta directamente con tus artistas favoritos</em></span>
                 </div>
             </header>
                 <asp:DataList ID="DataList1" runat="server" DataKeyField="idArtista" DataSourceID="sdsArtistas" RepeatColumns="3">

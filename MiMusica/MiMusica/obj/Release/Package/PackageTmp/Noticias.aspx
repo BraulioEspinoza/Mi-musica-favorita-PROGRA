@@ -5,6 +5,7 @@
             background: rgba(0,0,0,0.7);
             margin:100px auto;
             width:70%;
+ 
             border-radius:20px;
             color:white;
         }
@@ -19,7 +20,7 @@
         }
     </style>
     <div class="contenedorNoticia">
-        <h1 style="color:yellow;">Noticias</h1>
+        <h1>Noticias</h1>
         <asp:DataList ID="DataList1" runat="server" DataKeyField="idNoticia" DataSourceID="SqlDataSource1" RepeatColumns="3">
             <ItemTemplate>
                 <div id="contenedor">

@@ -71,7 +71,7 @@
                     <li><a href="Default.aspx">INICIO</a></li>
                     <li><a href="Artistas.aspx">ARTISTAS</a>
                         <ul>
-                            <li><a href="#">ESCUCHAR</a></li>
+                            <li><a href="Escuchar.aspx">ESCUCHAR</a></li>
                         </ul>
                     </li>
                     <li><a href="Noticias.aspx">NOTICIAS</a></li>

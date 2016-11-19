@@ -5,7 +5,6 @@
             background: rgba(0,0,0,0.7);
             margin:100px auto;
             width:70%;
-            height:700px;
             box-shadow:8px 8px 10px 0;
             border-radius:20px;
         }
@@ -26,7 +25,7 @@
             color:transparent;
         }
         #textArtistas{
-            margin:20px 0px 70px 30px;
+            margin:20px 0px 90px 30px;
             display:block;
             }
         #textArtistas a:hover{
@@ -49,23 +48,8 @@
             </header>
                 <asp:DataList ID="DataList1" runat="server" DataKeyField="idArtista" DataSourceID="sdsArtistas" RepeatColumns="3">
                     <ItemTemplate>
-                        <%--idArtista:
-                        <asp:Label Text='<%# Eval("idArtista") %>' runat="server" ID="idArtistaLabel" /><br />
-                        nombreArtista:
-                        <asp:Label Text='<%# Eval("nombreArtista") %>' runat="server" ID="nombreArtistaLabel" /><br />
-                        nacionalidad:
-                        <asp:Label Text='<%# Eval("nacionalidad") %>' runat="server" ID="nacionalidadLabel" /><br />
-                        descripcion:
-                        <asp:Label Text='<%# Eval("descripcion") %>' runat="server" ID="descripcionLabel" /><br />
-                        imagen:
-                        <asp:Label Text='<%# Eval("imagen") %>' runat="server" ID="imagenLabel" /><br />
-                        noticiaId:
-                        <asp:Label Text='<%# Eval("noticiaId") %>' runat="server" ID="noticiaIdLabel" /><br />
-                        cancionId:
-                        <asp:Label Text='<%# Eval("cancionId") %>' runat="server" ID="cancionIdLabel" /><br />
-                        <br />--%>
                         <div id="textArtistas">
-                            <a href="#">
+                            <a href="ver_Artista.aspx?codi=<%#Eval("idArtista") %>">
                                 <img src="<%#Eval("imagen") %>" width="270" height="250"/>
                                 <div class="textBD">
                                     <h3><%#Eval("nombreArtista") %></h3>
@@ -75,8 +59,6 @@
                         </div>
                         </ItemTemplate>
                 </asp:DataList>
-            
-
             <asp:SqlDataSource runat="server" ID="sdsArtistas" ConnectionString='<%$ ConnectionStrings:db_musicaConnectionString %>' SelectCommand="SELECT * FROM [Artista]"></asp:SqlDataSource>
         </div>
     </section>

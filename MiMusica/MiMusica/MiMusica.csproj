@@ -97,6 +97,7 @@
     <Content Include="Artistas.aspx" />
     <Content Include="Contacto.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Escuchar.aspx" />
     <Content Include="logo.css" />
     <Content Include="Noticias.aspx" />
     <Content Include="packages.config" />
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Escuchar.aspx.cs">
+      <DependentUpon>Escuchar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Escuchar.aspx.designer.cs">
+      <DependentUpon>Escuchar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

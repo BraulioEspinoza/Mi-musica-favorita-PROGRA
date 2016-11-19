@@ -45,6 +45,7 @@
             background: rgba(0,0,0,0.9);
             padding: 2px 2px 2px 2px;
             margin-top:-15%;
+            margin-right:20px;
             border-radius: 10px;
             box-shadow: 8px 8px 10px 0;
             float:right;
