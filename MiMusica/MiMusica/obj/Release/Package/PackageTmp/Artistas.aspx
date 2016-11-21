@@ -19,6 +19,7 @@
         }
         #textArtistas a > img{
             border-radius:20px;
+
         }
         #textArtistas a{
             text-decoration:none;
@@ -43,7 +44,7 @@
             <header>
                 <div id="text">
                     <h2>Nuestros Artistas</h2>
-                    <span><em>adada dad ada da dad ad ad ad ad ad d d ads ad ad adma dma dma amd ad ajnd kja dkad aa</em></span>
+                    <span><em>Conecta directamente con tus artistas favoritos</em></span>
                 </div>
             </header>
                 <asp:DataList ID="DataList1" runat="server" DataKeyField="idArtista" DataSourceID="sdsArtistas" RepeatColumns="3">

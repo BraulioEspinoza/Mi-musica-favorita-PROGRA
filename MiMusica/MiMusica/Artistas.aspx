@@ -19,6 +19,7 @@
         }
         #textArtistas a > img{
             border-radius:20px;
+
         }
         #textArtistas a{
             text-decoration:none;

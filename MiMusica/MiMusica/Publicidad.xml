@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://coscowichan.ca/wp-content/uploads/2015/03/COS-Banner-longer-1200x100.jpg</ImageUrl>
+    <NavigateUrl>http://coscowichan.ca/</NavigateUrl>
+    <Impressions>30</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.okbqa.org/_/rsrc/1465559347674/introduction/OKBQA-4%20%EC%9B%B9%EC%8A%A4%ED%82%A8%201250x100.png</ImageUrl>
+    <NavigateUrl>http://www.okbqa.org/</NavigateUrl>
+    <Impressions>30</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>https://oikotimesofficial.files.wordpress.com/2014/11/banner-vivagr-1300x100.jpg</ImageUrl>
+    <NavigateUrl>https://oikotimes.com/banner-vivagr-1300x100/</NavigateUrl>
+    <Impressions>30</Impressions>
+  </Ad>
+</Advertisements>

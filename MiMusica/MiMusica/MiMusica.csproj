@@ -106,6 +106,7 @@
     </Content>
     <Content Include="MiMusica.Master" />
     <None Include="Properties\PublishProfiles\automatico.pubxml" />
+    <None Include="Properties\PublishProfiles\nuevoAutomatico.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -116,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Publicidad.xml" />
     <Content Include="ver_Artista.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

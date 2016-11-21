@@ -10,10 +10,13 @@
             </div>
         </div>  
     </div>
-    <div style="margin:190px 0px 0px 570px; font-size:90px; color:white;">
-        listen to free music right now!!! 
+    <div style="height: 100%;background-size: cover;background-repeat: no-repeat;background-position: center;">
+        <div style="margin:190px 0px 0px 540px; font-size:90px; color:white;">
+            Listen to free music right now!!! 
+        </div>
+        <div style="margin:80px 0px 0px 540px; font-size:50px; color:white;">
+            //////////////////////////////////////////////////////
+        </div>
     </div>
-    <div style="margin:80px 0px 0px 570px; font-size:50px; color:white;">
-        //////////////////////////////////////////////////////
-    </div>
+
 </asp:Content>

@@ -5,7 +5,6 @@
             background: rgba(0,0,0,0.7);
             margin:100px auto;
             width:70%;
- 
             border-radius:20px;
             color:white;
         }
@@ -14,19 +13,20 @@
         }
         #contenedor img{
             border-radius:20px;
+            margin-bottom:10px;
         }
         .contenedorNoticia h1{
             padding:10px;
         }
     </style>
     <div class="contenedorNoticia">
-        <h1>Noticias</h1>
+        <h1 style="color:yellow;">Noticias</h1>
         <asp:DataList ID="DataList1" runat="server" DataKeyField="idNoticia" DataSourceID="SqlDataSource1" RepeatColumns="3">
             <ItemTemplate>
                 <div id="contenedor">
                     <img src="<%#Eval("imagen") %>" width="270" height="250"/>
                     <em><%#Eval("fecha") %></em>
-                    <h3><%#Eval("titulo") %></h3>
+                    <h3 style="margin-top:10px;"><%#Eval("titulo") %></h3><br />
                     <p><%#Eval("descripcion") %></p>
                     <p>_____________________________</p>
                 </div>

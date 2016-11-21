@@ -86,4 +86,8 @@
         <div id="ytplayer"></div>
         <div style="clear:both;"></div>
     </div>
+    <aside style="padding:5px;margin-top:-80px;text-align:center; background-color:rgba(0,0,0,0.5);">
+        <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1"/>
+        <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/publicidad.xml"></asp:XmlDataSource>
+    </aside>
 </asp:Content>

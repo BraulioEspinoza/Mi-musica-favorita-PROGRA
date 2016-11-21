@@ -13,6 +13,7 @@
         }
         #contenedor img{
             border-radius:20px;
+            margin-bottom:10px;
         }
         .contenedorNoticia h1{
             padding:10px;
@@ -25,7 +26,7 @@
                 <div id="contenedor">
                     <img src="<%#Eval("imagen") %>" width="270" height="250"/>
                     <em><%#Eval("fecha") %></em>
-                    <h3><%#Eval("titulo") %></h3>
+                    <h3 style="margin-top:10px;"><%#Eval("titulo") %></h3><br />
                     <p><%#Eval("descripcion") %></p>
                     <p>_____________________________</p>
                 </div>

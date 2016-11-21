@@ -87,8 +87,7 @@
                     </span>
                     <span id="textito2">
                         <em>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus laboriosam debitis esse perspiciatis dolores
-                        quia a error? Praesentium dolorum atque nisi est, reprehenderit a, assumenda cupiditate facilis voluptas qui, similique.
+                            Si has encontrado una falla en la página o deseas agregarle más música, por favor ponte en contacto con nosotros, siempre tendremos en cuenta y apreciamos los comentarios de nuestros usuarios. Gracias Atte My Favourite Music. 
                         </em>
                     </span>
                 </div>

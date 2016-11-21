@@ -44,8 +44,7 @@
             position: relative;
             background: rgba(0,0,0,0.9);
             padding: 2px 2px 2px 2px;
-            margin-top:-15%;
-            margin-right:20px;
+            margin:-15% 20px 20px 0px;
             border-radius: 10px;
             box-shadow: 8px 8px 10px 0;
             float:right;
@@ -65,10 +64,14 @@
                 height: 70px;
                 width: 70px;
             }
-            h1, #parrafocuadro2, label, textarea{
+            h1, #parrafocuadro2, label{
                 color:white;
                 margin:2px 10px 2px 10px;
             }
+             textarea{
+                 color:black;
+                 margin:2px 10px 2px 10px;
+             }
             input{
                 margin:2px 10px 2px 10px;
             }
@@ -84,8 +87,7 @@
                     </span>
                     <span id="textito2">
                         <em>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus laboriosam debitis esse perspiciatis dolores
-                        quia a error? Praesentium dolorum atque nisi est, reprehenderit a, assumenda cupiditate facilis voluptas qui, similique.
+                            Si has encontrado una falla en la página o deseas agregarle más música, por favor ponte en contacto con nosotros, siempre tendremos en cuenta y apreciamos los comentarios de nuestros usuarios. Gracias Atte My Favourite Music. 
                         </em>
                     </span>
                 </div>
@@ -113,12 +115,18 @@
                     </div>
                     <div class="fila">
                         <a href="#">
-                            <img id="enviar" src="https://static.wixstatic.com/media/666a32_6fb4a2c7a8c24b2daa2d1b40b74e21d4~mv2.png/v1/fill/w_128,h_128,al_c/666a32_6fb4a2c7a8c24b2daa2d1b40b74e21d4~mv2.png"/>
+                            <img id="enviar" src="https://pbs.twimg.com/profile_images/536886539322548224/9Tt-D7un.png"/>
                         </a>
                     </div>
 
             </div>
-            <div style="clear:both;">bnsfgng</div>
+            <div style="margin:60px 0px 30px 0px;">
+                <h1 style="margin-bottom:20px;">_____________________________</h1>
+                <p style="width:160px; color: white; margin-left:20px;">Av. La Fontana 550, La Molina, Lima, Perú</p>
+                <p style="width:160px; color: white; margin:20px 0px 0px 20px;">op.gg@hotmail.com</p>
+                <h1 style="margin-bottom:20px;">_____________________________</h1>
+            </div>
+            <div style="clear:both;"></div>
         </div>
     </section>
 </asp:Content>
